@@ -1,0 +1,22 @@
+#zielony {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+#niebieski{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+   
+}
+#czerwony{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+   
+}
