@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>formularz</title>
 </head>
 <body>
-    <p>zadanie 1</p>
+
+    <form action="https://formspree.io/mikolaj.oblinski@gmail.com" method="post">
+        <label for="imie">Imię</label><br>
+        <input type="text" name="imie" id="imie"><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" name="nazwisko" id="nazwisko"><br>
+        <label for="mail">Email</label><br>
+        <input type="text" name="mail" id="mail"><br>
+        <label for="tel">Telefon</label><br>
+        <input type="text" name="telefon" id="tel">
+        <br><br>
+        <select name="miasto" id="">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+        <br><br>
+        <input type="radio" name="płeć" value="kobieta">kobieta
+        <input type="radio" name="płeć" value="mezczyzna">mężczyzna
+        <br><br>
+        <input type="checkbox" name="zgoda" id="zgoda">
+        <label for="zgoda">zgoda na dane osobowe</label>
+        <br><br>
+        <label for="pwiadomosc">Treść wiadomości</label><br>
+        <textarea name="wiadomosc" id="pwiadomosc" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Wyślij</button>
+
+
+    </form>
+
+
+
+
 </body>
 </html>
