@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+/* zapobiega rozszerzaniu bloków, przy zmianie zawartości czy borderu */
+
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+    
+}
+#first {
+    float: left;
+    margin-right: 10px;
+}
+#second {
+    float: right;
+}
+p:last-child {
+    clear: both;
+}
+
+/* transition */
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+#box1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    transition: width 3s ease 1s, background-color 4s ease-in;
+    
+}
+#box1:hover {
+    width: 300px;
+    background-color: darkred;
+}
+
+#box2 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    transition: height 5s ease-in, background-color 5s ease-in;
+}
+#box2:hover {
+    height: 300px;
+    background-color: darkblue;
+}
+#box3 {
+    background-color: green;
+    width: 150px;
+    height: 150px;   
+}
+#box3:hover {
+    width: 300px;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+/* background */
+#trs {
+    background-color: azure;
+    background-image: url(../truskawka.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+   background-attachment: fixed;
+}
+
