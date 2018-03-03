@@ -1,0 +1,33 @@
+#p1::before {
+    content: 'przed elementem ';
+    color: red;
+}
+#p2::after {
+    content: ' po elemencie';
+    color: blue;
+}
+#p3::first-letter {
+    color: red;
+}
+#p4::first-line {
+    color: yellow;
+}
+#p5:target {
+    color: red;
+}
+a:link {
+    color: #593;
+    text-decoration: none;
+}
+a:visited {
+    color: aqua
+}
+#client-list div:nth-child(odd) {
+    background-color: pink;
+}
+#client-list div:nth-child(even){
+    background-color: green;
+}
+#client-list div:nth-child(5n+4){
+    background-color: blue
+}
