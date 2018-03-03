@@ -1,0 +1,38 @@
+form {
+    background-color: #213b50;
+    color: white;
+    width: 600px;
+    height: 100%;
+    padding: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+form input[type='text'],form select, form textarea {
+    width: 200px;
+    background-color: #2b4a64;
+    color: white;
+    border: #2b4a64;
+}
+
+form input[type="radio"]+label, form input[type="checkbox"]+label {
+    display:inline;
+}
+
+form input[type='text']:focus, form textarea:focus {
+    background-color: #4e708c;
+    border: 1px #fff solid;
+}
+form button[type='submit'] {
+    background-color: limegreen;
+    border: 0px;
+    width: 80px;
+    height: 30px;
+}
+form button[type='submit']:hover {
+    background-color:chartreuse;
+}
