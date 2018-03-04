@@ -3,5 +3,37 @@
 }
 body{
     font-family: 'lato', sans-serif;
-    
+    color: #291f1a;
+    font-weight: 300;
+}
+#main-nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+#main-nav ul{
+    margin: 0;
+    float: right;
+}
+#main-nav ul li{
+    display: inline;
+    padding: 20px 40px;
+}
+#main-nav ul li a{
+    color: greenyellow;
+    text-decoration:none;
+}
+header{
+    background-image: url(img/header-background.jpg);
+    background-size: cover;
+    height: 600px;
+}
+#name{
+    text-align: center;
+    padding-top: 200px;
+}
+header div h1{
+    font-size: 100px;
 }
