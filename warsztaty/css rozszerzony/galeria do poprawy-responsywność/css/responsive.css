@@ -1,29 +1,35 @@
 #gallery{
         width: 100%;
     }
+#gallery div{
+    font-size: 0px;
+}
+#gallery figure {
+    font-size: 14px;
+}
 figure {
-    width: 33%;
+    width: 33,3333333%;
+}
+/*dla urządzeń z bardzo małym wyświetlaczem-poniżej480px*/
+
+@media (max-width:480px){
+    figure {
+        width: 100%;
+    }
 }
 @media (max-width:768px) {
     figure{
         width: 100%;
     }
-    #gallery {width: 100%;
-    }
-    
 }
 @media (min-width:769px) and (max-width:992px){
     figure{
         width: 49%
     }
-    
 }
-    
-
-    
 @media (min-width:992px){
     figure{
         width:33%
+        
     }
-    
 }
