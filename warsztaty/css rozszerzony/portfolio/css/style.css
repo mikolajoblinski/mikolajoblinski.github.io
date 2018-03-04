@@ -1,10 +1,31 @@
+/*general*/
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
+}
+section{
+    padding:0 80px 100px;
+    width: 100%;
+    background-color: #f9fcfe;
+    
+}
+section h2{
+    text-align: center;
+    margin-top: 0.83cm;
+    margin-bottom: 0.83cm;
+    font-weight: 300;
+    font-size: 30px;
+}
+section h2 span{
+    color: #1ac056;
+    font-weight: 400;
+    
 }
 #main-nav{
     width: 100%;
@@ -48,4 +69,24 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 30px;
+}
+
+
+#aboute{
+    overflow: hidden;
+}
+#aboute img{
+    max-height: 350px;
+    max-width: 100%;
+    border: 14px #fff solid;
+    border-radius: 15px;
+}
+#aboute figure {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+#aboute div{
+    width: 50%;
+    float: left;
 }
