@@ -25,15 +25,27 @@ body{
     color: greenyellow;
     text-decoration:none;
 }
-header{
+#main-header{
     background-image: url(img/header-background.jpg);
     background-size: cover;
     height: 600px;
+    color: #fff;
 }
-#name{
+#main-header .header-content{
+    padding: 30vh;
     text-align: center;
-    padding-top: 200px;
 }
-header div h1{
+#main-header .header-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
     font-size: 100px;
+}
+#main-header .header-content h1 span{
+    color: #1ac056;
+    font-weight: 300;
+}
+#main-header .header-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
 }
