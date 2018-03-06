@@ -6,7 +6,7 @@
 body{
     background-color: #f5fffd;
 }
-#main{
+form{
     color: rgb(0,3,15);
     width: 600px;
     height: 300px;
@@ -14,23 +14,33 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 170px;
+    font-size: 12px;
+    padding: 10px;
 }
 #header{
     font-size: 10px;
     line-height: 18px;
-    margin: 10px;
+    
 }
 #header h2{
     font-style: italic;
     color: rgba(0,3,15,0.4);
 }
-#main #customer{
-    height: 120px;
-    margin: 10px;
-    border: 1px solid #000;
+form fieldset{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgba(0,3,15,0.4);
 }
-#main #books{
-    height: 60px;
-    margin: 10px;
-    border: 1px solid #000
+form input[type="tekst"], form input[type="tel"], form input[type="email"], form input[list] {
+    width: 250px;
+}
+form input[type="number"]{
+    width: 150px;
+}
+form fieldset div {
+    margin-left: 30px;
+}
+form input[type="submit"]{
+    margin-top: 5px;
 }

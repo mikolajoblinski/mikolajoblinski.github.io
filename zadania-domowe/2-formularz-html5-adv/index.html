@@ -6,17 +6,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <div id="main">
-   <div id="header">
-    <h1>A Simple Form</h1>
-    <h2>Form fundamentals</h2>              
-   </div>
-   <div id="customer">
-       
-   </div>
-   <div id="books">
-       
-   </div>
-</div>
+   <form action="" method="post" autocomplete="on">
+     
+       <div id="header">
+        <h1>A Simple Form</h1>
+        <h2>Form fundamentals</h2>              
+       </div>
+       <fieldset id="customer">
+         <legend>Customer Info</legend>
+          <div>
+              <label for="name">Name:</label>
+              <input type="text" name="Name" id="name" placeholder="Enter your name" required autofocus>
+          </div><br>
+          <div>
+              <label for="">Telephone:</label>
+              <input type="tel" name="tel" id="tel" placeholder="1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          </div><br>
+          <div>
+              <label for="">Email address:</label>
+              <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple>
+          </div>
+       </fieldset>
+       <fieldset id="books">
+          <legend>Books</legend>
+             <div>                 
+              <input list="books-list" name="books">
+              <datalist id="books-list">
+                  <option value="book-1"></option>
+                  <option value="book-2"></option>
+                  <option value="book-3"></option>
+                  <option value="book-4"></option>
+                  <option value="book-5"></option>
+              </datalist>
+              <label for="quantity">Quantity (Maximum 5)</label>
+              <input type="number" name="quantity" min="1" max="5" id="quantity">
+             </div>           
+           
+       </fieldset>
+       <input type="submit" value="Submit">
+    
+ </form>
 </body>
 </html>
