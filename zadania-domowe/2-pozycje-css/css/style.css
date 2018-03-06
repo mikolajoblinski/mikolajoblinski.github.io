@@ -3,4 +3,16 @@
     width: 400px;
     height: 600px;
     border: 4px #fff solid;
+    position: relative;
+}
+.square{
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
 }
