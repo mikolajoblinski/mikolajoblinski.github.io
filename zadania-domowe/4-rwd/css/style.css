@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+
+@media (min-width:1170px){
+    div{
+        height: 100%;
+        background-image: url(man-1.jpg);
+        background-size:cover;
+        background-position: center;
+        color: #fff;
+        position: relative;
+    }
+    header{
+        line-height: 50px;
+        position: absolute;
+        left: 2%;
+        top: 50%;
+        transform: translateY(-50%);        
+    }
+}
+@media (min-width:992px) and (max-width:1170px){
+    div{
+        height: 70%;
+        background-image: url(man-2.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    header{
+        color: #fff;
+        line-height: 270%;
+        font-size: 65%;
+        position: absolute;
+        top: 20%;
+        right: 23%;
+    }
+}
+@media (max-width:992px){
+    div{
+        height: 50%;
+        background-image: url(man-1.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    header{
+        color: #000;
+        line-height: 250%;
+        font-size: 70%;
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    header h3{
+        display: inline-block;
+        
+    }
+}
