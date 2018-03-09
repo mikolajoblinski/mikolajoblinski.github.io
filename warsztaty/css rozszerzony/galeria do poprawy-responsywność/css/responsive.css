@@ -24,12 +24,12 @@ figure {
 }
 @media (min-width:769px) and (max-width:992px){
     figure{
-        width: 49%
+        width: 49%;
     }
 }
 @media (min-width:992px){
     figure{
-        width:33%
+        width:33%;
         
     }
 }
