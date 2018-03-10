@@ -5,3 +5,6 @@ body{
     transform: rotate(35deg);
     transform-origin: 0% 0%;
 }
+.translate{
+    transform: translate(100%,50%);
+}
