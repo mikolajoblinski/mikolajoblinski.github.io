@@ -1,0 +1,39 @@
+#rwd-container{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+#rwd-container h1{
+    font-size: 60px;
+}
+#rwd-container .bg-container{
+    height: 200px;
+    border: 2px solid #000;
+    background-image:url(../img-1.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+#rwd-container p{
+    font-size: 30px;
+    color: blueviolet;
+}
+@media (max-width:600px){
+    body{
+        background-color: #000;
+    }
+    #rwd-container{
+        width: 95%;
+    }
+    #rwd-container h1{
+        font-size: 18px;
+        color: #fff;        
+    }
+    #rwd-container .bg-container{
+        background-image: url(../img-2.jpg);
+    }
+    #rwd-container p{
+        color: #fff;
+        font-size: 12px;
+    }
+}
