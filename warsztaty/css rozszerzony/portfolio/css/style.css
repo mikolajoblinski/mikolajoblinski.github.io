@@ -183,6 +183,43 @@ p{
 #portfolio .mask-content-inner{
     
 }
-
-
 /* portfolio end */
+
+/* sekcja contact start */
+#contact{
+    background-color: #213b50;
+    color: #fff;
+    padding: 0 0 100px;
+}
+#address, #contact-form{
+    display: inline-block;
+    width: 49%;
+    vertical-align:top;
+}
+#contact h2{
+    
+    text-align: left;
+}
+#contact #address div{
+    margin-top: 0.8cm;
+}
+#contact #contact-icons i{
+    border: 1px #fff solid;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#contact-form input, #contact textarea{
+    display: block;
+    background-color: #4e708c;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+}
+#contact-form form input[type="text"], #contact-form form input[type="email"], #contact-form form textarea{
+    width: 100%;
+}
