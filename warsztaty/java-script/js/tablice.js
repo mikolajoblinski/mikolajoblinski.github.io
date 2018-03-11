@@ -33,9 +33,12 @@ console.log( elementyTablicyString );
 
 //sortowanie tablicy
 //imiona.sort();
-//console.log(imiona);
+console.log(imiona);
 
 //sprawdzanie czy zawartość tablicy isnieje
-console.log( imiona.indexOf("Kinga"));
+//console.log( imiona.indexOf("Kinga"));
 /*można doczytać o wyrażeniach regularnych, jako opje wyszukiwania zawartości tablicy indexOf*/
 
+//usuwanie wybranego elementu z tablicy
+imiona.splice(2,1);
+console.log(imiona);
