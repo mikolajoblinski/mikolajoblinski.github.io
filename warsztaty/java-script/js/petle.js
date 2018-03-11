@@ -24,8 +24,8 @@ var tablica = ["volvo", "Mazda", "Honda", "Audi"];
 //var iter = 1;
 //do {
 //	console.log("while iteracja nr " + iter);
-//	
-//}
+//	tu mam nie dokończony kod
+//} while();
 
 
 //brake i continue
