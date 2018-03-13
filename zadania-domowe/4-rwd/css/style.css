@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: verdana, sans-serif;
 }
 html, body{
     height: 100%;
@@ -27,7 +28,7 @@ html, body{
     div{
         height: 70%;
         background-image: url(man-2.jpg);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         position: relative;
@@ -37,15 +38,15 @@ html, body{
         line-height: 270%;
         font-size: 65%;
         position: absolute;
-        top: 20%;
-        right: 23%;
+        top: 15%;
+        right: 10%;
     }
 }
 @media (max-width:992px){
     div{
         height: 50%;
         background-image: url(man-1.jpg);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         position: relative;
