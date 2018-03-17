@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <section id="sectionFirst">
        <header>
-           <p>paragraf jeden w sectionFirst</p>
+           <p onclick="alert('wywolano clic dla paragrafu');">paragraf jeden w sectionFirst</p>
            <!-- tutaj komentarz do sectionFirst -->
            <h1 id="main-header">Header tekst</h1>
        </header>
        <div id="parFirst">
-           <p>paragraf w div#parFirst</p>
+           <p id="par2">paragraf w div#parFirst</p>
            <!-- komentarz -->
            <a href="http://akademia108.pl" class="link">
                link w div#parFirst
            </a>
+           <div id="output"></div>
        </div>
        <div id="parSecond">
            kolejny tekst tym razem w div#parSecond
        </div>
-       <a href="http://akademia108.pl" class="link">Link1</a>
+       <a href="http://akademia108.pl" class="link, link1">Link1</a>
        <a href="#" class="link">Link2</a>
-       <a href="#" class="link" class="superlink">Link3</a>
-       <a href="#" class="link" class="superlink">Link4</a>
+       <a href="#" class="link, superlink">Link3</a>
+       <a href="#" class="link, superlink">Link4</a>
        
    </section>
 <!--    
@@ -32,7 +34,11 @@
   <script src="js/model-dom.js"></script>
     <script src="js/szukanie-elementow.js"></script>
     <script src="js/wezly-node.js"></script>
-   -->
     <script src="js/node-type.js"></script>
+    <script src="js/tworzenie-dodawanie-usuwanie-wezlow.js"></script>
+    <script src="js/manipulacja.js"></script>
+    <script src="js/zdarzenia.js"></script>
+   -->
+    <script src="js/stopPropagacjom.js"></script>
 </body>
 </html>
