@@ -7,7 +7,8 @@
 //zwroci element html jako obiekt
 //console.log(document.documentElement);
 
-//obiekt window
+//obiekt window (jest używany głównie do rozpoznawania szerokości i wyskości okna przeglądarki. Przy wysokości okna pokazuje nam również jak daleko jesteśmy od początku-góry-okna przegladarki)
 //console.log ( window );
 console.log ( window.innerWidth );
 console.log ( window.innerHeight );
+console.log ( window.document );
