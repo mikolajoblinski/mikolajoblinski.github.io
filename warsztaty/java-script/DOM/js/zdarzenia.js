@@ -1,12 +1,12 @@
 var paragraf = document.getElementById("par2");
 
-////sposób 1
-//function obsluzZdarzenie( event ){
-////    console.log("clic");
+//sposób 1
+function obsluzZdarzenie( event ){
+    console.log("clic");
 //    console.log(event.type);
-//}
-//
-//paragraf.onclick = obsluzZdarzenie;/* tutaj przy wywoływaniu zdarzenia nie dajemy nawiasów na końcu tak jak przy wywoływaniu funkcji*/
+}
+
+paragraf.onclick = obsluzZdarzenie;/* tutaj przy wywoływaniu zdarzenia nie dajemy nawiasów na końcu tak jak przy wywoływaniu funkcji*/
 //
 ////sposób 2 (najlepiej używać tego)
 //paragraf.onclick = function(e) {
@@ -37,9 +37,9 @@ var paragraf = document.getElementById("par2");
 ////usuwanie obsługi zdarzenia
 ////title.removeEventListener("click", bodyColor);
 
-// blokowanie domyślnego działania elementu
-document.querySelector(".link1").addEventListener("click", function( event){
-    event.preventDefault();
-    console.log("kliknąłem link klasy .link1");
-});
+//// blokowanie domyślnego działania elementu
+//document.querySelector(".link1").addEventListener("click", function( event){
+//    event.preventDefault();
+//    console.log("kliknąłem link klasy .link1");
+//});
 //
