@@ -2,3 +2,6 @@
     font-size: 30px;
     color: chartreuse;
 }
+h1 {
+    position: relative;
+}
