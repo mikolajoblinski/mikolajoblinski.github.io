@@ -10,6 +10,6 @@ btn.on("click", function(){
                     function(){
         alert("koniec animacji");
                     }
-                    )
+                    );
     
 });
