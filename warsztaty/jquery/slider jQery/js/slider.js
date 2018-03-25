@@ -1,4 +1,40 @@
-var slideShow = $("#slide-show");
-var slideCount = $("single-slide").lenght;
-var slideWidth = $("100/slideCount");
-var slideIndex = $("");
+$(function() {
+    var slideShow = $(".slide-show");
+    var slideCount = $(".single-slide").length;
+    var slideWidth = 100/slideCount;
+    var slideIndex = 0;
+    
+    //szerokosc kliszy
+    slideShow.css('width', slideCount*100 + '%');
+    
+    //szerokości i pozycjinowanie slajdów
+    slideShow.find('.single-slide').each(function(index){
+        $(this).css({'width': slideWidth + '%', 'margin-left': index * slideWidth + '%'});
+    });
+    
+    //przyciski ze strzałkami- podpięcie funkcji na kliknięciu
+    $('.prev-slide').click(function(){
+        slide(slideIndex - 1);
+    })
+    
+    $('.next-slide').click(function(){
+        slide(slideIndex + 1);
+    })
+    
+    //funkcja odpowiadająca za przesuwanie 'kliszy'
+    function slide(newSlideIndex){
+        if(newSlideIndex < 0 || newSlideIndex > slideCount - 1)
+            return;
+        
+        var slideCaption = slideShow.find('.slide-caption').eq(newSlideIndex);
+        
+        slideCaption.hide();
+        
+        var newMarginLeft = (newSlideIndex * (-100)) +'%';
+        
+        slideShow.animate({ marginLeft: newMarginLeft}, 800, function(){
+            slideIndex = newSlideIndex;
+            slideCaption.fadeIn();
+        })
+    }
+})
