@@ -52,5 +52,5 @@ jsonOsoby.osoby.forEach( function ( element, index ) {
 //}
 //
 //for( var property in obiekt ) {
-//	console.log( "Nazwa właściwości: " + property + "wartość właściwości: " + obiekt[property] );
+//	console.log( "Nazwa właściwości: " + property + " wartość właściwości: " + obiekt[property] );
 //}
