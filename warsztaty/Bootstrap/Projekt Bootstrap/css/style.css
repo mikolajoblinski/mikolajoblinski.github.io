@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Droid Serif', sans-serif;
+}
+#main-nav .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+#main-nav .navbar-brand{
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+}
+#main-nav a:hover{
+    color: #0ed8d6;
+}
+#main-header{
+    height: 110vh;
+    background-image: url(../img/header/45-degree-fabric-dark.png), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: #fff;
+    text-align: center;
+}
+#main-header div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#main-header div h3, a{
+    margin-top: 10px;
+     font-family: 'Montserrat', sans-serif;
+}
+#main-header .hc-title {
+    font-size: 3.5em;
+}
+#main-header a {
+    background-color: aqua;
+    color: #fff;
+}
+#main-header a:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+}
